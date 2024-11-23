@@ -1,14 +1,17 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Sensei and Zen"
-  author: "Norah Jones"
-  date: "11/23/2024"
+  author: "Yuzu Sensei"
+  date: "today"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - Pedagogy.qmd
+    - Words.qmd
+    - Speaking.qmd
+    - Writing.qmd
     - references.qmd
 
 bibliography: references.bib
